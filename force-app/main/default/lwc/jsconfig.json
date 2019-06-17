@@ -1,12 +1,33 @@
 {
     "compilerOptions": {
+        "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/basic": [
+                "basic/basic.js"
+            ],
+            "c/formForNewRegistrations": [
+                "formForNewRegistrations/formForNewRegistrations.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/listOfAllRegistrations": [
+                "listOfAllRegistrations/listOfAllRegistrations.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
             "c/registration": [
                 "registration/registration.js"
+            ],
+            "c/registrationB": [
+                "registrationB/registrationB.js"
+            ],
+            "c/registrationsTable": [
+                "registrationsTable/registrationsTable.js"
             ]
-        },
-        "experimentalDecorators": true
+        }
     },
     "include": [
         "**/*",
